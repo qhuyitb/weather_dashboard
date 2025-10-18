@@ -1,6 +1,6 @@
-# 🌤️ Dashboard Phân Tích Thời Tiết Việt Nam 2024
+# 🌤️ Dashboard Phân Tích Thời Tiết Việt Nam 2025
 
-Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 thành phố lớn Việt Nam trong năm 2024.
+Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 thành phố lớn Việt Nam trong năm 2025.
 
 ## 📋 Tính Năng
 
