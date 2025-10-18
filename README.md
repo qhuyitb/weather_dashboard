@@ -68,18 +68,20 @@ Dashboard sẽ mở tự động tại: `http://localhost:8501`
 - Sunburst phân bố theo mùa
 - Top thành phố mưa nhiều
 - Radar chart độ ẩm
-
-### Tab 5: 🗺️ Bản Đồ Tương Tác
-- Plotly scatter map
-- Folium detailed map với markers
-- Visualize không gian địa lý
-
-### Tab 6: 🔍 So Sánh & Tương Quan
+  
+### Tab 5: 🔍 So Sánh & Tương Quan
 - Heatmap correlation matrix
 - Radar chart so sánh 2 thành phố
 - Parallel coordinates
 - Scatter 3D
 - T-test thống kê
+
+### Tab 6: 🗺️ Bản Đồ Tương Tác
+- Plotly scatter map
+- Folium detailed map với markers
+- Visualize không gian địa lý
+
+
 
 ## 🎛️ Tính Năng Tương Tác
 
