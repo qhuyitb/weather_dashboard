@@ -8,13 +8,14 @@ Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 
 
 - ✅ **Thu thập dữ liệu:** Open-Meteo API (không cần API key)
 - ✅ **Chuẩn hóa & Feature Engineering:** Xử lý missing data, tạo các cột mới
-- ✅ **Histogram/Boxplot/Violin:** Tab 1 
+- ✅ **Histogram/Boxplot/Violin:** Tab 1
+- ✅ **Network Graph:** Tab 1 - Mối Liên Hệ Thời Tiết
 - ✅ **Line/Area Chart:** Tab 2 - Xu hướng thời gian
 - ✅ **Scatter + Regression:** Tab 3 - Phân tích nhiệt độ
-- ✅ **Heatmap Correlation:** Tab 6 - Ma trận tương quan
 - ✅ **Treemap/Sunburst:** Tab 4 - Phân tích mưa
-- ✅ **Bản đồ tương tác:** Tab 5 - Folium & Plotly Map
-- ✅ **WordCloud:** Tab 1 - Đặc điểm thời tiết
+- ✅ **Heatmap Correlation:** Tab 5 - Ma trận tương quan
+- ✅ **Bản đồ tương tác:** Tab 6 - Folium & Plotly Map
+
 - ✅ **15+ biểu đồ tương tác:** Tất cả dùng Plotly
 
 ## 🚀 Cài Đặt & Chạy
@@ -48,7 +49,7 @@ Dashboard sẽ mở tự động tại: `http://localhost:8501`
 - Histogram phân bố nhiệt độ
 - Boxplot so sánh thành phố
 - Violin plot phân bố chi tiết
-- WordCloud đặc điểm thời tiết
+- Network Graph Mối Liên Hệ Thời Tiết
 
 ### Tab 2: 📈 Xu Hướng Thời Gian
 - Line chart nhiệt độ theo thời gian
