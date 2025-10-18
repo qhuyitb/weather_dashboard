@@ -8,7 +8,7 @@ Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 
 
 - ✅ **Thu thập dữ liệu:** Open-Meteo API (không cần API key)
 - ✅ **Chuẩn hóa & Feature Engineering:** Xử lý missing data, tạo các cột mới
-- ✅ **Histogram/Boxplot/Violin:** Tab 1 & 3
+- ✅ **Histogram/Boxplot/Violin:** Tab 1 
 - ✅ **Line/Area Chart:** Tab 2 - Xu hướng thời gian
 - ✅ **Scatter + Regression:** Tab 3 - Phân tích nhiệt độ
 - ✅ **Heatmap Correlation:** Tab 6 - Ma trận tương quan
