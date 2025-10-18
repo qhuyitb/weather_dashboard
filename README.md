@@ -4,19 +4,19 @@ Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 
 
 ## 📋 Tính Năng
 
-### ✅ Đáp ứng đầy đủ yêu cầu:
+###  Đáp ứng đầy đủ yêu cầu:
 
-- ✅ **Thu thập dữ liệu:** Open-Meteo API (không cần API key)
-- ✅ **Chuẩn hóa & Feature Engineering:** Xử lý missing data, tạo các cột mới
-- ✅ **Histogram/Boxplot/Violin:** Tab 1
-- ✅ **Network Graph:** Tab 1 - Mối Liên Hệ Thời Tiết
-- ✅ **Line/Area Chart:** Tab 2 - Xu hướng thời gian
-- ✅ **Scatter + Regression:** Tab 3 - Phân tích nhiệt độ
-- ✅ **Treemap/Sunburst:** Tab 4 - Phân tích mưa
-- ✅ **Heatmap Correlation:** Tab 5 - Ma trận tương quan
-- ✅ **Bản đồ tương tác:** Tab 6 - Folium & Plotly Map
+-  **Thu thập dữ liệu:** Open-Meteo API (không cần API key)
+-  **Chuẩn hóa & Feature Engineering:** Xử lý missing data, tạo các cột mới
+-  **Histogram/Boxplot/Violin:** Tab 1
+-  **Network Graph:** Tab 1 - Mối Liên Hệ Thời Tiết
+-  **Line/Area Chart:** Tab 2 - Xu hướng thời gian
+-  **Scatter + Regression:** Tab 3 - Phân tích nhiệt độ
+-  **Treemap/Sunburst:** Tab 4 - Phân tích mưa
+-  **Heatmap Correlation:** Tab 5 - Ma trận tương quan
+-  **Bản đồ tương tác:** Tab 6 - Folium & Plotly Map
 
-- ✅ **15+ biểu đồ tương tác:** Tất cả dùng Plotly
+-  **15+ biểu đồ tương tác:** Tất cả dùng Plotly
 
 ## 🚀 Cài Đặt & Chạy
 
