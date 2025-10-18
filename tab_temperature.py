@@ -25,6 +25,12 @@ def render_tab_temperature(df_filtered):
         'city',
         'rainfall'
     )
+    # Đổi title của biểu đồ sang tiếng Việt
+    fig.update_layout(
+        title='Mối quan hệ Nhiệt độ - Độ ẩm',
+        xaxis_title='Nhiệt độ trung bình (°C)',
+        yaxis_title='Độ ẩm (%)'
+    )
     st.plotly_chart(fig, use_container_width=True)
     
     # Calculate correlation

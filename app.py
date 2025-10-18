@@ -17,7 +17,7 @@ from tab_comparison import render_tab_comparison
 
 # PAGE CONFIG
 st.set_page_config(
-    page_title="Thời Tiết Việt Nam 2025",
+    page_title="Thời tiết Việt Nam 2025",
     page_icon="🌤️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -67,7 +67,7 @@ st.markdown("""
     }
     /* Giảm khoảng trắng đầu trang */
     .st-emotion-cache-zy6yx3 {
-        padding-top: 15px !important;
+        padding-top: 16px !important;
     }
 
     /* Xoá margin dưới tiêu đề hoặc các container không mong muốn */
@@ -80,10 +80,12 @@ st.markdown("""
         padding-bottom: 0 !important;
         margin-top: 0 !important;
     }
-    /* Ẩn nút Deploy */
-    .stAppDeployButton {
-        display: none !important;
+   
+    
+    .st-emotion-cache-zy6yx3 {
+        padding-bottom: 0 !important;
     }
+    
 
     
 
@@ -103,7 +105,7 @@ st.markdown("""
 
 
 # TITLE
-st.title("🌤️Thời Tiết các thành phố lớn Việt Nam 2025")
+st.title("🌤️Thời tiết các thành phố lớn Việt Nam 2025")
 # st.markdown("### 📊 Dữ liệu thực từ Open-Meteo API")
 st.markdown("---")
 
@@ -219,7 +221,7 @@ st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 20px;'>
     <p>🌍 Dữ liệu từ <a href='https://open-meteo.com/' target='_blank'>Open-Meteo API</a> | 📅 Năm 2025</p>
-    <p style='margin-top: 10px;'>Made with ❤️ for Data Visualization</p>
+    <p style='margin-top: 10px;'>Made with ❤️ by Quang Huy for Data Visualization</p>
 </div>
 """, unsafe_allow_html=True)
 
