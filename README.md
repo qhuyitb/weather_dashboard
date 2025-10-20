@@ -2,6 +2,9 @@
 
 Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 thành phố lớn Việt Nam trong năm 2025.
 
+
+🚀 **[Live Demo](https://qhuyitb-weather-dashboard-app-7zo2jg.streamlit.app/)** - Xem ngay!
+
 ## 📋 Tính Năng
 
 ###  Đáp ứng đầy đủ yêu cầu:
@@ -98,7 +101,7 @@ Dashboard sẽ mở tự động tại: `http://localhost:8501`
 **Open-Meteo Archive API** (Free, không cần đăng ký):
 - URL: `https://archive-api.open-meteo.com/v1/archive`
 - Variables: nhiệt độ max/min/mean, độ ẩm, lượng mưa
-- Time range: 01/01/2024 - 31/12/2024
+- Time range: 01/01/2025 - today(<=31/12/2025)
 - 8 thành phố: Hà Nội, HCM, Đà Nẵng, Hải Phòng, Cần Thơ, Huế, Nha Trang, Vũng Tàu
 
 ## 📈 Feature Engineering
@@ -180,6 +183,6 @@ MIT License - Tự do sử dụng cho học tập và nghiên cứu
 
 ---
 
-**Made with ❤️ for Data Visualization**
+**Made with ❤️ by Quang Huy for Data Visualization**
 
 🌟 Nếu thích project, đừng quên star trên GitHub!
