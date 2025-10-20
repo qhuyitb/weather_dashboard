@@ -142,6 +142,10 @@ date_range = st.sidebar.date_input(
     help="Chọn khoảng thời gian cần phân tích"
 )
 
+if len(date_range) != 2:
+    st.warning("❌ Vui lòng chọn cả ngày bắt đầu và ngày kết thúc")
+    st.stop()
+
 # Season filter
 selected_season = st.sidebar.selectbox(
     "🍂 Mùa",

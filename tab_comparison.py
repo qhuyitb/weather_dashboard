@@ -1,5 +1,5 @@
 """
-Tab 6: So Sánh & Tương Quan
+Tab 5: So Sánh & Tương Quan
 """
 
 import streamlit as st

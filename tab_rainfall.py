@@ -14,9 +14,7 @@ def render_tab_rainfall(df_filtered):
     
     st.header("💧 Phân Tích Độ Ẩm & Lượng Mưa")
     
-    # ===========================
     # TREEMAP
-    # ===========================
     st.subheader(" Treemap - Tổng Lượng Mưa Theo Thành Phố")
     
     fig = create_treemap(
@@ -27,17 +25,13 @@ def render_tab_rainfall(df_filtered):
     )
     st.plotly_chart(fig, use_container_width=True)
     
-    # ===========================
     # SUNBURST
-    # ===========================
     st.subheader(" Sunburst - Phân Bố Mưa Theo Mùa & Thành Phố")
     
     fig = create_sunburst(df_filtered)
     st.plotly_chart(fig, use_container_width=True)
     
-    # ===========================
     # RAINFALL STATISTICS
-    # ===========================
     col1, col2 = st.columns(2)
     
     with col1:
@@ -67,9 +61,7 @@ def render_tab_rainfall(df_filtered):
         )
         st.plotly_chart(fig, use_container_width=True)
     
-    # ===========================
     # INSIGHTS
-    # ===========================
     with st.expander("💡 Insights về mưa"):
         rainiest = df_filtered.groupby('city')['rainfall'].sum().idxmax()
         driest = df_filtered.groupby('city')['rainfall'].sum().idxmin()

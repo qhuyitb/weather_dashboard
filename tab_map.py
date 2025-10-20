@@ -1,5 +1,5 @@
 """
-Tab 5: Bản Đồ Tương Tác
+Tab 6: Bản Đồ Tương Tác
 """
 
 import streamlit as st
