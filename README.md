@@ -2,6 +2,9 @@
 
 Dashboard tương tác phân tích dữ liệu thời tiết thực tế từ 8 thành phố lớn Việt Nam trong năm 2025.
 
+
+🚀 **[Live Demo](https://qhuyitb-weather-dashboard-app-7zo2jg.streamlit.app/)** - Xem ngay!
+
 ## 📋 Tính Năng
 
 ###  Đáp ứng đầy đủ yêu cầu:
