@@ -20,18 +20,28 @@ def render_tab_comparison(df_filtered):
     
     # CORRELATION HEATMAP
     
-    st.subheader(" Heatmap - Ma Trận Tương Quan")
+    st.subheader("📊 Heatmap - Ma Trận Tương Quan")
     
     corr_vars = ['temp_mean', 'temp_max', 'temp_min', 'humidity', 'rainfall', 'temp_range']
+    var_labels = {
+        'temp_mean': 'Nhiệt độ TB',
+        'temp_max': 'Nhiệt độ Max',
+        'temp_min': 'Nhiệt độ Min',
+        'humidity': 'Độ ẩm',
+        'rainfall': 'Lượng mưa',
+        'temp_range': 'Chênh lệch nhiệt độ'
+    }
     
     # Check if all columns exist
     available_vars = [var for var in corr_vars if var in df_filtered.columns]
     
     if len(available_vars) >= 2:
-        fig = create_correlation_heatmap(df_filtered, available_vars)
+        # Rename columns để hiển thị tiếng Việt
+        df_for_heatmap = df_filtered[available_vars].rename(columns=var_labels)
+        fig = create_correlation_heatmap(df_for_heatmap, df_for_heatmap.columns.tolist())
         st.plotly_chart(fig, use_container_width=True)
     else:
-        st.warning("Không đủ dữ liệu để tạo ma trận tương quan")
+        st.warning("⚠️ Không đủ dữ liệu để tạo ma trận tương quan")
     
     
     # COMPARE 2 CITIES
